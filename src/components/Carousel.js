@@ -19,7 +19,7 @@ export default function Header(props) {
   focusOnSelect={false}
   infinite
   itemClass=""
-  keyBoardControl
+  keyBoardControl={true}
   minimumTouchDrag={80}
   renderButtonGroupOutside={true}
   renderDotsOutside={false}

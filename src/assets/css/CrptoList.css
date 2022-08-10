@@ -1,0 +1,29 @@
+.ul_list {
+  margin: 0 auto;
+}
+
+.list_ele {
+  display: flex;
+  margin-top: 10px;
+  width: 500px;
+  height: 60px;
+  /* background-color: black; */
+  margin: 10px auto;
+  /* color: aliceblue; */
+  justify-content: space-between;
+}
+
+.list_ele_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.ele_name,
+.ele_price {
+  padding-top: 15px;
+  /* background-color: aquamarine; */
+}
+
+.search_box {
+  margin: 100px 0px 20px 600px;
+}

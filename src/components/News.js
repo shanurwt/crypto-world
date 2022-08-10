@@ -33,7 +33,6 @@ const News = ()=> {
                 for (var i=0;i<result.length;i++){
                     arr.push(result[i]);
                 }
-                console.log(arr);
                 setNews(arr);
                 setShownews(arr.slice(0,Limit))
             })
