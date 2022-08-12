@@ -9,7 +9,6 @@ export  const Header = () => {
     return (
       <Navbar bg='dark' expand='md' variant='dark'>
         <Container>
-
         <Nav className='me-auto' variant= 'pills'>
             <LinkContainer to="/homepage">
                 <Nav.Link>Homepage</Nav.Link>
