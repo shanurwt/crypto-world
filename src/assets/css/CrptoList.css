@@ -27,3 +27,31 @@
 .search_box {
   margin: 100px 0px 20px 600px;
 }
+
+.top_ele{
+  display: flex;
+  margin-top: 10px;
+}
+.top_ele_name{
+  margin-left: 6px;
+}
+
+.volume_images{
+  height: 60px;
+  width: 60px;
+}
+
+.vol_index{
+  padding-top: 16px;
+  margin-right: 8px;
+}
+
+.vol_ele{
+  display: flex;
+  margin-top: 10px;
+}
+
+.vol_ele_name{
+  margin-left: 6px;
+  margin-top: 15px;
+}

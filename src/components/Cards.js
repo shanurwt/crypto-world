@@ -1,74 +1,36 @@
 import React from 'react'
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import {TopCryptos, VolumeInc, VolumeDec} from './CryptoList'
+import '../assets/css/Cards.css'
 
 function Cards() {
   return (
     <div className="cards">
-            <Card sx={{ minWidth: 275 }}>
-            <CardContent>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                Word of the Day
-                </Typography>
-                <Typography variant="h5" component="div">
-                </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                adjective
-                </Typography>
-                <Typography variant="body2">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <Button size="small">Learn More</Button>
-            </CardActions>
+            <Card sx={{ minWidth: 450, minHeight: 470 }} className='first'>
+                <CardContent >
+                    <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
+                    Today's Top 5 Cryptos 
+                    </Typography>
+                    <TopCryptos/>
+                </CardContent>
             </Card>
-            <Card sx={{ minWidth: 275 }}>
+            <Card sx={{ minWidth: 450, minHeight: 470 }} className='second'>
             <CardContent>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                Word of the Day
+                <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
+                Volume Gainers in 24Hrs
                 </Typography>
-                <Typography variant="h5" component="div">
-                </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                adjective
-                </Typography>
-                <Typography variant="body2">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
-                </Typography>
+                <VolumeInc/>
             </CardContent>
-            <CardActions>
-                <Button size="small">Learn More</Button>
-            </CardActions>
             </Card>
-            <Card sx={{ minWidth: 275 }}>
+            <Card sx={{ minWidth: 450, minHeight: 470  }} className='third'>
             <CardContent>
-                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                Word of the Day
+                <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
+                Volume Losers in 24 Hrs
                 </Typography>
-                <Typography variant="h5" component="div">
-                </Typography>
-                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                adjective
-                </Typography>
-                <Typography variant="body2">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
-                </Typography>
+                <VolumeDec/>
             </CardContent>
-            <CardActions>
-                <Button size="small">Learn More</Button>
-            </CardActions>
             </Card>
         </div>
   )

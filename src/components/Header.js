@@ -1,8 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from "gsap";
-import '../assets/css/Header.css'
-
-
 
 function Header() {
     const head = useRef();

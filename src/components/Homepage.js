@@ -1,11 +1,11 @@
-// import Button from '@mui/material/Button';
-// import banner from '../assets/images/banner.png'
-
+import Cards from './Cards'
 import Header from './Header'
+
 const Homepage = ()=> {
   return (
     <div>
         <Header/>
+        <Cards/>
     </div>
   )
 }

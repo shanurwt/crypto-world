@@ -1,0 +1,9 @@
+.cards{
+    display: flex;
+    background-color: #252629;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.first{
+    margin-left: 9px;
+}
