@@ -1,0 +1,18 @@
+
+.wel_container{
+    height: 800px;
+    /* width: 100%; */
+    background-color: #252629;
+    color: aliceblue;
+}
+
+.box{
+    /* background-color: aquamarine; */
+    margin:0 auto;
+    /* font-size: 28px; */
+}
+
+.defination{
+    font-size:38px;
+    margin-bottom: 100px;
+}

@@ -8,7 +8,7 @@ import '../assets/css/Cards.css'
 function Cards() {
   return (
     <div className="cards">
-            <Card sx={{ minWidth: 450, minHeight: 470 }} className='first'>
+            <Card sx={{ minWidth: 450, minHeight: 450 }} className='first'>
                 <CardContent >
                     <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
                     Today's Top 5 Cryptos 
@@ -16,7 +16,7 @@ function Cards() {
                     <TopCryptos/>
                 </CardContent>
             </Card>
-            <Card sx={{ minWidth: 450, minHeight: 470 }} className='second'>
+            <Card sx={{ minWidth: 450, minHeight: 450 }} className='second'>
             <CardContent>
                 <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
                 Volume Gainers in 24Hrs
@@ -24,7 +24,7 @@ function Cards() {
                 <VolumeInc/>
             </CardContent>
             </Card>
-            <Card sx={{ minWidth: 450, minHeight: 470  }} className='third'>
+            <Card sx={{ minWidth: 450, minHeight: 450  }} className='third'>
             <CardContent>
                 <Typography sx={{ fontSize: 30 }} align="center" color="text.secondary" gutterBottom>
                 Volume Losers in 24 Hrs
