@@ -1,6 +1,6 @@
 
 .wel_container{
-    height: 800px;
+    height: 2000px;
     /* width: 100%; */
     background-color: #252629;
     color: aliceblue;
@@ -13,6 +13,33 @@
 }
 
 .defination{
-    font-size:38px;
+    font-size:24px;
     margin-bottom: 100px;
+    display: flex;
+}
+
+.ques1{
+    margin-left: 40%;
+}
+.ques2{
+    margin-left: 38%;
+}
+
+.ques1{
+    /* position: absolute; */
+    /* z-index: 200; */
+    /* color: #2D3D4A; */
+    opacity: 0;
+    padding-top: 210px;
+}
+
+.defination{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.trend{
+    padding-top:300px;
+    margin-left: 600px;
 }

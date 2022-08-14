@@ -29,7 +29,9 @@ function Header() {
     const punchline21 = useRef();
     
     useEffect(() => {
-        var first = gsap.timeline();
+        var first = gsap.timeline({
+            onComplete: "enableScroll",
+        });
         first.to(head.current,{ rotation: -5, duration:1})
         first.to(head.current,{ rotation: 4, duration:1})
         first.to(head.current,{ rotation: 0, duration:1})
