@@ -43,7 +43,7 @@ function Header() {
         first.to(world.current,{scaleX:1, duration: 1})
         first.to(punchline.current,{ x: 515, y: 200, duration:2, stagger:0.3,})
         // first.to(punchline1.current,{
-        //     delay: 7,
+        //     delay: 10,
         //     duration: 2.5, 
         //     opacity: 0, 
         //     rotation: "random(-2000, 2000)",

@@ -3,6 +3,7 @@
     background-color: #252629;
     flex-direction: row;
     justify-content: space-around;
+    padding-bottom: 30px;
 }
 .first{
     margin-left: 9px;

@@ -101,7 +101,7 @@ export function TopCryptos(){
   },[])
   return (
   
-  <div className="list_container">
+  <div>
             <ul className='top_list'>
             {top_sev.map((ele,ind)=>(
                 <li className='top_ele' key={ind}>
@@ -136,7 +136,7 @@ export function VolumeInc(){
 console.log(vol_inc);
   return (
   
-  <div className="list_container">
+  <div>
             <ul className='top_list'>
             {vol_inc.map((ele,ind)=>(
                 <li className='vol_ele' key={ind}>
@@ -170,7 +170,7 @@ export function VolumeDec(){
 console.log(vol_inc);
   return (
   
-  <div className="list_container">
+  <div>
             <ul className='top_list'>
             {vol_inc.map((ele,ind)=>(
                 <li className='vol_ele' key={ind}>
