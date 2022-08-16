@@ -25,7 +25,7 @@
 }
 
 .search_box {
-  margin: 100px 0px 20px 600px;
+  margin: 50px 0px 50px 150px;
 }
 
 .top_ele{
@@ -54,4 +54,13 @@
 .vol_ele_name{
   margin-left: 6px;
   margin-top: 15px;
+}
+
+.cryptolist-container{
+  border-radius: 10px;
+  border: 1px saddlebrown solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 40px;
+  background-color: whitesmoke;
 }

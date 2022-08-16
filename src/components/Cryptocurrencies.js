@@ -2,7 +2,7 @@ import {TrendingCoins} from './api/cryptoapi'
 import { useEffect , useState} from 'react';
 import Header from './Carousel';
 import CryptoList from './CryptoList';
-
+import '../assets/css/Cryptocurrencies.css'
 export function Cryptocurrencies (){
 
   const [coins, setCoins] = useState([]);
@@ -26,9 +26,11 @@ export function Cryptocurrencies (){
   // console.log(coins);
 
     return (
-      <div>
-          <h1>Trending Coins</h1>
+      <div className='cryptopage'>
+        <div >
+          <h1 className='trend-heading'>Trending Coins</h1>
           <Header coins={coins}/>
+          </div>
           <CryptoList />
       </div>
     )

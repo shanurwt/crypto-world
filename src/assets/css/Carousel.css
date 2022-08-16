@@ -1,0 +1,24 @@
+.ele-img{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.ele-container{
+    background-color: #252629;
+    /* margin: 0 auto; */
+    /* display: flexbox; */
+    /* align-items: center; */
+    margin: 0px;
+    text-align: center;
+}
+
+.ele-name {
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+.ele-info{
+    color: aliceblue;
+}

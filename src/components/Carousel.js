@@ -3,6 +3,7 @@ import React from 'react'
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import '../assets/css/Carousel.css'
 
 export default function Header(props) {
   return (
@@ -55,10 +56,10 @@ export default function Header(props) {
   swipeable
   >
     {props.coins.map((ele,ind) => (
-        <div key={ind}>
-            <img src={ele.image} alt="First slide" />
-            <p>{ele.name}</p>
-            <p>{ele.price_change_percentage_24h_in_currency}</p>
+        <div className='ele-container' key={ind}>
+            <img className='ele-img' src={ele.image} alt="First slide" />
+            <p className='ele-name'> {ele.name}</p>
+            <p className='ele-info'>{ele.price_change_percentage_24h_in_currency.toFixed(2)}%</p>
         </div>
     ))}
 </Carousel>

@@ -42,7 +42,7 @@ export default function CryptoList() {
 //   console.log(all_list_coins);
   return (
 
-    <div>
+    <div className='cryptolist-container'>
         <form className='search_box'>
             <label htmlFor="Search">Search:</label>
             <input type="text" value={item} onChange={e=> setItem(e.target.value)} />
