@@ -21,6 +21,7 @@
 .ques1{
     margin-left: 40%;
     width: 400px;
+    /* background-color: transparent; */
 }
 .ques2{
     margin-left: 38%;
@@ -33,6 +34,7 @@
     /* color: #2D3D4A; */
     opacity: 0;
     padding-top: 210px;
+    margin-top: 350px;
 }
 
 .defination{
@@ -42,6 +44,6 @@
 }
 
 .trend{
-    padding-top:300px;
-    margin-left: 600px;
+    padding-top:470px;
+    margin-left: 650px;
 }

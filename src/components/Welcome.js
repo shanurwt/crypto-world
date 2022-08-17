@@ -18,17 +18,18 @@ function Welcome() {
         {
           opacity: 0,
           ease: "none",
+          // backgroundColor: 'transparent',
         });
         well.to(crypto.current, 
         {
           opacity: 1,
           duration: 3,
-          y: -200,
+          // y: -100,
           ease:"easeIn",
           scrollTrigger: {
             trigger: crypto.current,
-            start: "top center",
-            end: "bottom center",
+            start: "350 center",
+            end: "600 center",
             // markers:true,
             pin:true,
             toggleActions: "play reset resume reset",
@@ -46,12 +47,12 @@ function Welcome() {
         {
           opacity: 1,
           duration: 3,
-          y: -300,
+          y: -50,
           ease:"easeIn",
           scrollTrigger: {
             trigger: cdef.current,
-            start: "-200 center",
-            end: "bottom center",
+            start: "100 center",
+            end: "350 center",
             // markers:true,
             pin:true,
             toggleActions: "play reset resume reset",
@@ -68,12 +69,12 @@ function Welcome() {
         {
           opacity: 1,
           duration: 3,
-          y: -300,
+          y: -50,
           ease:"easeIn",
           scrollTrigger: {
             trigger: ser.current,
-            start: "-200 center",
-            end: "bottom center",
+            start: "0 center",
+            end: "250 center",
             // markers:true,
             pin:true,
             toggleActions: "play reset resume reset",
@@ -90,12 +91,12 @@ function Welcome() {
         {
           opacity: 1,
           duration: 3,
-          y: -300,
+          y: -50,
           ease:"easeIn",
           scrollTrigger: {
             trigger: serdef.current,
-            start: "-200 center",
-            end: "bottom center",
+            start: "0 center",
+            end: "400 center",
             // markers:true,
             pin:true,
             toggleActions: "play reset resume reset",
