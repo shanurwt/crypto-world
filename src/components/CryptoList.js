@@ -45,7 +45,7 @@ export default function CryptoList() {
     <div className='cryptolist-container'>
         <form className='search_box'>
             <label htmlFor="Search">Search:</label>
-            <input type="text" value={item} onChange={e=> setItem(e.target.value)} />
+            <input className='inputbox' type="text" value={item} onChange={e=> setItem(e.target.value)} />
         </form>
         { item ?
             <div className="list_container">
