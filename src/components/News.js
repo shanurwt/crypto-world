@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import Stack from 'react-bootstrap/Stack'
+import '../assets/css/News.css'
+
 
 const Limit=12;
 
@@ -16,12 +18,12 @@ const News = ()=> {
 
     const url = 'https://crypto-news-live3.p.rapidapi.com/news';
     const loadMore = () => {
-        console.log(index);
+        // console.log(index);
         const newIndex = index+Limit;
-        console.log(newIndex);
+        // console.log(newIndex);
         const newList = news.slice(news, index, newIndex);
         // console.log(news);
-        console.log(newList);
+        // console.log(newList);
         setShownews(newList);
         setIndex(newIndex);
     };
@@ -42,7 +44,7 @@ const News = ()=> {
                 setShownews(arr.slice(0,Limit));
             //  console.log(arr);
             //  console.log(arr.slice(0,Limit));
-                console.log('inside useeffect')
+                // console.log('inside useeffect')
             })
             .catch(err => console.error(err));
             }
@@ -50,7 +52,7 @@ const News = ()=> {
             fetchData();
     },[]);
     return (
-      <div>
+      <div className='container'>
         <Row style={{margin:'10px'}} xs={1} md={2} lg={3} >
           
         {shownews.map((ele,ind) => (
@@ -70,9 +72,16 @@ const News = ()=> {
             </Col>
             ))}
         </Row>
+
+        {shownews.length>=news.length ? 
+        <Stack gap={2} className="col-md-2 mx-auto">
+            <Button variant='info' onClick={loadMore}>{'Enough for today'}</Button>
+        </Stack>
+        :
         <Stack gap={2} className="col-md-2 mx-auto">
             <Button variant='info' onClick={loadMore}>{'Load More'}</Button>
         </Stack>
+        }
       </div>
     )
   }
