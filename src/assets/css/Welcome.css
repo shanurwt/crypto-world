@@ -16,6 +16,7 @@
     font-size:24px;
     margin-bottom: 100px;
     display: flex;
+    /* opacity: 0; */
 }
 
 .ques1{
@@ -26,6 +27,7 @@
 .ques2{
     margin-left: 38%;
     width: 400px;
+    opacity: 0;
 }
 
 .ques1{
@@ -44,6 +46,17 @@
 }
 
 .trend{
-    padding-top:470px;
+    padding-top:170px;
     margin-left: 650px;
+}
+
+.cdef_div{
+    opacity: 0 ;
+}
+
+.defination2{
+    font-size:24px;
+    margin-bottom: 100px;
+    display: flex;
+    opacity: 0;
 }
