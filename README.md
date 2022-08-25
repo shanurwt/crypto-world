@@ -23,8 +23,8 @@ The project is live [here](https://krypto-world.netlify.app).
 
 ## Future Work:
 
-[] Authentication
+- [ ] Authentication
 
-[] Profile builder
+- [ ] Profile builder
 
-[] Portfolio for users
+- [ ] Portfolio for users
