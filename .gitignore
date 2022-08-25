@@ -9,8 +9,8 @@
 /coverage
 
 # api
-/src/components/api/cryptoapi.js
-/src/components/api/newsapi.js
+/src/components/api/
+/src/components/api/
 
 # production
 /build
