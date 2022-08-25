@@ -9,8 +9,7 @@
 /coverage
 
 # api
-/src/components/api/
-/src/components/api/
+/src/components/api/*
 
 # production
 /build
